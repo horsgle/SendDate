@@ -1,0 +1,24 @@
+{
+  "name": "send-date",
+  "version": "1.0.0",
+  "description": "Envio da data para o servidor de aplicação externo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horsgle/SendDate.git"
+  },
+  "author": "William Simão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horsgle/SendDate/issues"
+  },
+  "homepage": "https://github.com/horsgle/SendDate#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "node-schedule": "^1.2.3",
+    "request": "^2.81.0"
+  }
+}
